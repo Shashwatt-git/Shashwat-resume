@@ -1,0 +1,65 @@
+.projects {
+  display: grid;
+  gap: 24px;
+}
+
+.project {
+  background: #111318;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid #1f2937;
+  transition: transform 0.3s;
+}
+
+.project:hover {
+  transform: translateY(-4px);
+}
+
+.project-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.project-header img {
+  width: 80px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.project-header h3 {
+  flex: 1;
+  font-size: 18px;
+}
+
+.project-header span {
+  font-size: 22px;
+  color: #7c83ff;
+}
+
+/* DROPDOWN */
+.project-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  padding: 0 20px;
+}
+
+.project-body.open {
+  max-height: 400px;
+  padding-bottom: 20px;
+}
+
+.project-body p,
+.project-body li {
+  color: #cbd5e1;
+  font-size: 15px;
+}
+
+.project-body ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}

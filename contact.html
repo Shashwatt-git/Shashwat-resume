@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Shashwat Chandel</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="contact-page">
+    <canvas id="bg"></canvas>
+
+    <header class="nav-container">
+        <nav class="nav-pill">
+            <a href="index.html">Home</a>
+            <a href="resume.html">Resume</a>
+            <a href="contact.html" class="active">Contact</a>
+            <a href="work.html" class="nav-cta">Projects</a>
+        </nav>
+    </header>
+
+    <main class="page-container">
+        <header class="contact-intro">
+            <h1>Get in Touch</h1>
+            <p>Let's build something thoughtful together.</p>
+        </header>
+
+        <div class="contact-grid">
+            <div class="contact-info">
+                <div class="glass-card contact-card">
+                    <div class="icon-glow">✉️</div>
+                    <h3>Email</h3>
+                    <p>reachshashwatchandel@gmail.com</p>
+                    <a href="mailto:reachshashwatchandel@gmail.com" class="teal-link">Send a message</a>
+                </div>
+
+                <div class="glass-card contact-card">
+                    <div class="icon-glow">📱</div>
+                    <h3>Phone</h3>
+                    <p>+91 8815841188</p>
+                    <a href="tel:8815841188" class="teal-link">Call directly</a>
+                </div>
+
+                <div class="glass-card contact-card">
+                    <div class="icon-glow">🌐</div>
+                    <h3>Digital Presence</h3>
+                    <div class="social-pills">
+                        <a href="https://github.com/Shashwatt-git" target="_blank" class="tag">GitHub</a>
+                        <a href="#" class="tag">LinkedIn</a>
+                        <a href="#" class="tag">Twitter</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="glass-card form-container">
+                <form id="contact-form">
+                    <div class="input-group">
+                        <label>Your Name</label>
+                        <input type="text" placeholder="John Doe" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Email Address</label>
+                        <input type="email" placeholder="john@example.com" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Message</label>
+                        <textarea rows="5" placeholder="Tell me about your project..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/three@0.158.0/build/three.min.js"></script>
+    <script src="js/three-bg.js"></script>
+</body>
+</html>
