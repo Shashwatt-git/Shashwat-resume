@@ -120,7 +120,7 @@ body {
 
 .skill-pills {
     display: flex;
-    gap: 40px;
+    gap: 80px;
     margin-bottom: 40px;
     background: var(--glass);
     padding: 8px 20px;
