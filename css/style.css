@@ -27,6 +27,10 @@ body {
     left: 0;
     z-index: -1;
 }
+#bg {
+  pointer-events: none;
+}
+
 
 /* --- NAVIGATION --- */
 .nav-container {
