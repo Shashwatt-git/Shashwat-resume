@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shashwat | Portfolio</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <canvas id="bg"></canvas>
@@ -19,28 +19,74 @@
         </nav>
     </header>
 
-    <main class="hero">
-        <div class="spotlight"></div>
-        
-        <div class="avatar-container">
-            <div class="avatar"></div>
-        </div>
+    <main>
+        <section class="hero">
+            <div class="spotlight"></div>
 
-        <div class="hero-content">
-            <h1>I’m Shashwat.</h1>
-            <p class="bio">I build thoughtful digital products with clarity and intent.</p>
-            
-            <div class="skill-pills">
-                <span class="pill">Software Engineering</span>
-                <span class="pill">Machine Learning</span>
-                <span class="pill">Product Thinking</span>
+            <div class="avatar-container">
+                <div class="avatar"></div>
             </div>
 
-            <a href="work.html" class="btn-glow">View My Work</a>
-        </div>
+            <div class="hero-content">
+                <p class="hero-eyebrow">AI Engineer • Full Stack Developer • Problem Solver</p>
+                <h1>I build high-impact digital systems that scale.</h1>
+                <p class="bio">I’m Shashwat Chandel — focused on machine learning, product engineering, and secure software design. I turn complex ideas into polished products that teams trust.</p>
+
+                <div class="skill-pills">
+                    <span class="pill">Software Engineering</span>
+                    <span class="pill">Machine Learning</span>
+                    <span class="pill">Cybersecurity</span>
+                </div>
+
+                <div class="hero-actions">
+                    <a href="work.html" class="btn-glow">Explore Projects</a>
+                    <a href="resume.html" class="btn-outline">View Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="home-metrics page-container">
+            <article class="glass-card metric-card">
+                <h3>5+</h3>
+                <p>Production-grade projects spanning healthcare, cybersecurity, and AI automation.</p>
+            </article>
+            <article class="glass-card metric-card">
+                <h3>ML + Product</h3>
+                <p>Strong bridge between model development, backend architecture, and user-first UX.</p>
+            </article>
+            <article class="glass-card metric-card">
+                <h3>Hiring-ready</h3>
+                <p>Focused on shipping practical, business-facing systems that drive measurable outcomes.</p>
+            </article>
+        </section>
+
+        <section class="page-container featured-projects">
+            <div class="section-headline">
+                <h2>Featured Project Highlights</h2>
+                <a href="work.html" class="teal-link">See all projects →</a>
+            </div>
+            <div class="project-grid compact-grid">
+                <a href="project-threatsentry.html" class="glass-card project-showcase-card">
+                    <span class="category">Cybersecurity • LLM</span>
+                    <h3>ThreatSentry</h3>
+                    <p>AI-assisted red-team scenario generation mapped to MITRE ATT&CK and enterprise workflows.</p>
+                </a>
+                <a href="project-cancer-care.html" class="glass-card project-showcase-card">
+                    <span class="category">Healthcare • NLP</span>
+                    <h3>Smart Cancer Care</h3>
+                    <p>Patient-level intelligence platform blending NLP and image insights for treatment support.</p>
+                </a>
+                <a href="project-dreamhome.html" class="glass-card project-showcase-card">
+                    <span class="category">Web App • Full Stack</span>
+                    <h3>DreamHome</h3>
+                    <p>Scalable property platform with access control, clean UX, and robust data workflows.</p>
+                </a>
+            </div>
+        </section>
     </main>
 
     <script src="https://unpkg.com/three@0.158.0/build/three.min.js"></script>
     <script src="js/three-bg.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
